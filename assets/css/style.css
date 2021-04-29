@@ -2,18 +2,13 @@
     --primary: rgb(245, 188, 102);
     --secondary: white;
     --text-color: rgb(75, 75, 75);
-    --header-color: orange;
+    --header-color: rgb(111, 66, 235);
+    --body-color: rgb(180, 146, 219);
     --tag-fontsize: 30px;
     --text-fontsize: 15px;
-    --medium-green: rgb(123, 184, 123);
-    --light-green: rgb(197, 235, 197);
-    --medium-red: rgb(223, 1, 1);
-    --light-red: rgb(235, 141, 141);
-    --medium-purple: purple;
-    --light-purple: rgb(245, 173, 245);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -21,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 header {
@@ -30,12 +26,17 @@ header {
     align-items: center;
     padding: 1%;
     background-color: var(--header-color);
-    color: var(--text-color);
+    color: white;
     width: 98%;
 }
 
 h1{
     font-size: 200%;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(229, 206, 248);
 }
 
 h2 {
@@ -78,7 +79,7 @@ nav ul {
 }
 
 main {
-    background-color: rgb(255, 218, 149);
+    background-color: var(--body-color);
 }
 
 .bio {
@@ -92,15 +93,19 @@ main {
     text-decoration: underline;
 }
 
-.bio p img {
+.bioContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.bioContent img {
     position: relative;
-    height: 250px;
-    width: 250px;
+    width: 30%;
     margin: 3%;
     float: left;
 }
 
-.bio p {
+.bioContent p {
     text-align: center;
     position: relative;
     float: right;
@@ -120,21 +125,17 @@ main {
 }
 
 .group-4 {
-    position: relative;
     padding: 3%;
 }
 
 .group-4 h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: left;
-    margin-left: 5%;
-    font-weight: bolder;
 }
 
 .group-4 img {
     float: left;
-    margin-left: 4%;
-    max-width: 90%;
+    width: 45%;
 }
 
 .group-4 img:hover {
@@ -143,20 +144,17 @@ main {
 }
 
 .password-gen {
-    position: relative;
-    padding: 3%
+    padding: 3%;
 }
 
 .password-gen h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: right;
-    margin-right: 5%;
 }
 
 .password-gen img{
     float: right;
-    margin-right: 4%;
-    max-width: 55%;
+    width: 45%;
 }
 
 .password-gen img:hover {
@@ -212,39 +210,12 @@ footer div {
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-    header {
-        background-color: var(--medium-green);
-    }
-    main {
-        background-color: var(--light-green);
-    }
-    footer {
-        background-color: var(--medium-green);
-    }
-  }
+}
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    header {
-        background-color: var(--medium-red);
-    }
-    main {
-        background-color: var(--light-red);
-    }
-    footer {
-        background-color: var(--medium-red);
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    header {
-        background-color: var(--medium-purple);
-    }
-    main {
-        background-color: var(--light-purple);
-    }
-    footer {
-        background-color: var(--medium-purple);
-    }
-  }
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+}

@@ -15,29 +15,29 @@
     <header>
         <h1>M. Katja Sarain</h1>
         <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#project-scroll">Projects</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume-link">Resume</a></li>
-            </ul>
+            <button><a href="#about-me">About Me</a></button>
+            <button><a href="#project-scroll">Projects</a></button>
+            <button><a href="#contact-me">Contact</a></button>
+            <button><a href="#resume-link">Resume</a></button>
         </nav>
     </header>
     
     <section class="overlay-header">
-        <img src="https://www.bannerbatterien.com/upload/filecache/Banner-Batterien-Windrder2-web_06b2d8d686e91925353ddf153da5d939.webp" alt="stock banner image of windmills" />
+        <img src="./assets/images/banister.jpeg" alt="seashells" />
         <h2 class="banner-text">Welcome to My Portfolio!</h2>
     </section>
 
     <main>
-        <section>
-            <article class="bio" id="about-me">
-                <h2>About Me</h2>
+        <div class="bio" id="about-me">
+            <h2>About Me</h2>
+            <div class="bioContent">
+                <img src="./assets/images/profile.jpeg" alt="MKS photo" />
                 <p>
-                    <img src="./assets/images/profile.jpeg" alt="MKS photo" />
                     I am currently a Web Develop student at the UCSD Coding Bootcamp, looking to gain new skills in technology. The ideal job I would like to pursue would be game developer, but I enjoy all aspects of coding. This is an early version of my portfolio; more to add at a future date.
                 </p>
-            </article>
+            </div>
+        </div>
+        <div class="projectContainer">
             <article class="projects" id="project-scroll">
                 <h2>Projects</h2>
                 <div class="group-4">
@@ -48,6 +48,8 @@
                     <h3>Random Password Generator</h3>
                     <a href="./hw-example.html"><img src="./assets/images/passscreenshot.png" alt="screenshot of password generator" /></a>
                 </div>
+        </div>
+        <div class="bottomContainer">
             <article class="contact" id="contact-me">
                 <h2>Contact Me</h2>
                 <div>
@@ -65,14 +67,14 @@
                     <a href="./assets/pdf files/Resume 2020.pdf">Click to Open</a>
                 </div>
             </article>
-        </section>
+        </div>
     </main>
 
     <footer>
         <h3>Thank you for Visiting!</h3>
         <div>
             <p>
-                Updated 21 March 2021
+                Updated 28 April 2021
             </p>
         </div>
     </footer>
