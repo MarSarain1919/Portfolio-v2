@@ -119,169 +119,49 @@ main {
     text-decoration: underline;
 }
 
-.skates {
+.group-4 {
     position: relative;
     padding: 3%;
 }
 
-.skates h3 {
+.group-4 h3 {
     font-size: 1.5em;
     text-align: left;
     margin-left: 5%;
     font-weight: bolder;
 }
 
-.skates img {
+.group-4 img {
     float: left;
     margin-left: 4%;
     max-width: 90%;
 }
 
-.skates img:hover {
+.group-4 img:hover {
     background-color: white;
     opacity: 0.4;
 }
 
-.skates p {
-    position: absolute;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    margin-left: 5%;
-    margin-top: 2%;
-    background-color: black;
-}
-
-.stocks {
+.password-gen {
     position: relative;
     padding: 3%
 }
 
-.stocks h3 {
+.password-gen h3 {
     font-size: 1.5em;
     text-align: right;
     margin-right: 5%;
 }
 
-.stocks img{
+.password-gen img{
     float: right;
     margin-right: 4%;
     max-width: 55%;
 }
 
-.stocks img:hover {
+.password-gen img:hover {
     background-color: white;
     opacity: 0.4;
-}
-
-.stocks p {
-    position: absolute;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    float: right;
-    margin-top: 2%;
-    margin-left: 82%;
-    background-color: black;
-}
-
-.carrots {
-    position: relative;
-    padding: 3%;
-}
-
-.carrots h3 {
-    font-size: 1.5em;
-    text-align: left;
-    margin-left: 5%;
-    font-weight: bolder;
-}
-
-.carrots img {
-    float: left;
-    margin-left: 4%;
-    max-width: 60%;
-}
-
-.carrots img:hover {
-    background-color: white;
-    opacity: 0.4;
-}
-
-.carrots p {
-    position: absolute;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    margin-left: 5%;
-    margin-top: 2%;
-    background-color: black;
-}
-
-.spiderman {
-    position: relative;
-    padding: 3%
-}
-
-.spiderman h3 {
-    font-size: 1.5em;
-    text-align: right;
-    margin-right: 5%;
-}
-
-.spiderman img{
-    float: right;
-    margin-right: 4%;
-    max-width: 55%;
-}
-
-.spiderman img:hover {
-    background-color: white;
-    opacity: 0.4;
-}
-
-.spiderman p {
-    position: absolute;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    float: right;
-    margin-top: 2%;
-    margin-left: 82%;
-    background-color: black;
-}
-
-.mini {
-    position: relative;
-    padding: 3%;
-}
-
-.mini h3 {
-    font-size: 1.5em;
-    text-align: left;
-    margin-left: 5%;
-    font-weight: bolder;
-}
-
-.mini img {
-    float: left;
-    margin-left: 4%;
-    max-width: 60%;
-}
-
-.mini img:hover {
-    background-color: white;
-    opacity: 0.4;
-}
-
-.mini p {
-    position: absolute;
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    margin-left: 5%;
-    margin-top: 2%;
-    background-color: black;
 }
 
 .contact {
