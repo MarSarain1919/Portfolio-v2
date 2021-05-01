@@ -232,21 +232,31 @@ footer div {
     .banner-text {
         font-size: 2em;
     }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+    }
     .bioContent img {
-        display: none;
+        width: 40%;
+        align-self: center;
     }
     .bioContent p {
         width: 100%;
         padding: 2%;
     }
+    .bottomContainer {
+        display: flex;
+        flex-direction: column;
+    }
     .contact {
         float: left;
         width: 50%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .resume {
         float: right;
         width: 50%;
-        margin-left: 10%;
+        margin-left: 5%;
+        margin-bottom: 2%;
     }
 }
