@@ -34,9 +34,10 @@ h1{
     font-size: 200%;
 }
 
-button {
-    font-size: 20px;
+button, input, a {
+    font-size: 25px;
     background-color: rgb(229, 206, 248);
+    margin-right: 5px;
 }
 
 h2 {
@@ -114,28 +115,28 @@ main {
     font-size: 1.5em;
 }
 
-.projects {
+.projectContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .projects h2 {
     text-decoration: underline;
+    text-align:center;
 }
 
 .group-4 {
     padding: 3%;
+    float: left;
 }
 
 .group-4 h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: left;
 }
 
 .group-4 img {
-    float: left;
-    width: 45%;
+    width: 70%;
 }
 
 .group-4 img:hover {
@@ -145,16 +146,16 @@ main {
 
 .password-gen {
     padding: 3%;
+    float: left;
 }
 
 .password-gen h3 {
-    font-size: 1.2em;
-    text-align: right;
+    font-size: 1.5em;
+    text-align: left;
 }
 
 .password-gen img{
-    float: right;
-    width: 45%;
+    width: 70%;
 }
 
 .password-gen img:hover {
@@ -162,9 +163,15 @@ main {
     opacity: 0.4;
 }
 
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact {
-    text-align: center;
-    padding: 3%;
+    float: left;
+    width: 50%;
+    margin-left: 20%;
 }
 
 .contact h2 {
@@ -172,22 +179,17 @@ main {
 }
 
 .contact ul{
-    align-items: center;
     list-style-type: none;
-    display: block;
 }
 
 .resume {
-    display: block;
-    text-align: center;
+    float: right;
+    width: 50%;
+    margin-left: 20%;
 }
 
 .resume h2 {
     text-decoration: underline;
-}
-
-.resume div {
-    margin-bottom: 25px;
 }
 
 footer {
