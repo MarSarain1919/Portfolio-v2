@@ -14,8 +14,8 @@ HTML5 and CSS
 ## Screenshot
 
 Screenshot:
-![Screenshot From The Site](https://github.com/MarSarain1919/Portfolio-v2/issues/2#issue-873773269)
+![Screenshot From The Site](./assets/images/big.png)
 
 Mobile-view Screenshot:
-![Screenshot From The Site](https://github.com/MarSarain1919/Portfolio-v2/issues/1#issue-873773120)
+![Screenshot From The Site](./assets/images/small.png)
 
