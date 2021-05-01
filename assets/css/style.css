@@ -72,11 +72,10 @@ h2 {
     color: white;
 }
 
-nav ul {
+button {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
-    list-style-type: none;
+    min-width: 100px;
 }
 
 main {
@@ -209,15 +208,45 @@ footer div {
     font-size: 120%;
     margin: 5px;
 }
-
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
+.screenshot {
+    width: 80%;
+    margin-left: 27%;
+    margin-top: 3%;
 }
-  
+
 /* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
+    .bioContent p {
+        text-align: center;
+        position: relative;
+        float: right;
+        margin-left: auto;
+        margin-right: 2%;
+        font-size: 1em;
+        width: 60%;
+    }
 }
 
 /* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 476px) {
+    .banner-text {
+        font-size: 2em;
+    }
+    .bioContent img {
+        display: none;
+    }
+    .bioContent p {
+        width: 100%;
+        padding: 2%;
+    }
+    .contact {
+        float: left;
+        width: 50%;
+        margin-left: 10%;
+    }
+    .resume {
+        float: right;
+        width: 50%;
+        margin-left: 10%;
+    }
 }
