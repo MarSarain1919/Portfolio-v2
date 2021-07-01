@@ -1,53 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-<meta charset="UTF-8" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>MKS Portfolio</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M. Katja Sarain</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+
     <header>
-        <h1>M. Katja Sarain</h1>
         <nav>
-            <button><a href="#about-me">About Me</a></button>
-            <button><a href="#project-scroll">Projects</a></button>
-            <button><a href="#contact-me">Contact</a></button>
-            <button><a href="#resume-link">Resume</a></button>
+            <div class="columns">
+                <div class="column">
+                    <h1>M. Katja Sarain</h1>
+                </div>
+                <div class="column">
+                    <div class="columns" id="navCol">
+                        <div class="column is-5">
+                            <a href="#about-me">About Me</a>
+                        </div>
+                        <div class="column">
+                            <a href="#project-scroll">Projects</a>
+                        </div>
+                        <div class="column">
+                            <a href="#contact-me">Contact</a>
+                        </div>
+                        <div class="column">
+                            <a href="#resume-link">Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    
-    <section class="overlay-header">
-        <img src="./assets/images/banister.jpeg" alt="seashells" />
-        <h2 class="banner-text">Welcome to My Portfolio!</h2>
-    </section>
 
     <main>
         <div class="bio" id="about-me">
-            <h2>About Me</h2>
             <div class="bioContent">
-                <img src="./assets/images/profile.jpeg" alt="MKS photo" />
-                <p>
-                    I am currently a Web Develop student at the UCSD Coding Bootcamp, looking to gain new skills in technology. The ideal job I would like to pursue would be game developer, but I enjoy all aspects of coding. This is an early version of my portfolio; more to add at a future date.
-                </p>
+                <div class="columns">
+                    <div class="column is-4">
+                        <img src="./assets/images/profile.jpeg" alt="MKS photo" />
+                    </div>
+                    <div class="column">
+                        <h2>About Me</h2>
+                        <p>
+                            I am currently a Web Develop student at the UCSD Coding Bootcamp, looking to gain new skills
+                            in
+                            technology. The ideal job I would like to pursue would be game developer, but I enjoy all
+                            aspects of
+                            coding. This is an early version of my portfolio; more to add at a future date.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
         <div class="projectContainer">
-            <article class="projects" id="project-scroll">
+            <div class="projects" id="project-scroll">
                 <h2>Projects</h2>
                 <div class="group-4">
-                   <h3>Web API Group Project</h3>
-                    <a href="./grouphw.html"><img src="./assets/images/fullsitescreenshot.png" alt="group screenshot" /></a>
+                    <h3>Web API Group Project</h3>
+                    <a href="https://maxwellstickels.github.io/sports-app/"><img
+                            src="./assets/images/fullsitescreenshot.png" alt="group screenshot" /></a>
                 </div>
                 <div class="password-gen">
                     <h3>Random Password Generator</h3>
-                    <a href="./passhw.html"><img src="./assets/images/passscreenshot.png" alt="screenshot of password generator" /></a>
+                    <a href="https://marsarain1919.github.io/Password-Assignment/"><img
+                            src="./assets/images/passscreenshot.png" alt="screenshot of password generator" /></a>
                 </div>
+                <div class="note-taker">
+                    <h3>NodeJS Note Taker</h3>
+                    <a href="https://ancient-bayou-00579.herokuapp.com/"><img src="./assets/images/note-taker.png"
+                            alt="screenshot of note taker" /></a>
+                </div>
+            </div>
         </div>
         <div class="bottomContainer">
 
@@ -57,18 +88,22 @@
                     <ul>
                         <li>
                             <form action="mailto:katjasarain@gmail.com" method="post">
-                                <input type="submit" value="Email Me"></p>
+                                <button class="button is-link" type="submit" value="Email Me">Email</button>
                             </form>
                         </li>
-                        <li><a href="https://www.linkedin.com/in/ksarain/">LinkedIn</a></li> <br />
-                        <li><a href="https://github.com/MarSarain1919">GitHub</a></li>
+                        <li>
+                            <button class="button is-link" href="https://www.linkedin.com/in/ksarain/">LinkedIn</button>
+                        </li>
+                        <li>
+                            <button class="button is-link" href="https://github.com/MarSarain1919">GitHub</button>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="resume" id="resume-link">
                 <h2>Resumé</h2>
                 <div>
-                    <a href="./assets/pdf files/Resume 2021.pdf">Click to Open</a>
+                    <button class="button is-link" href="./assets/pdf files/Resume 2021.pdf">Click to Open</button>
                 </div>
             </div>
         </div>
@@ -78,10 +113,11 @@
         <h3>Thank you for Visiting!</h3>
         <div>
             <p>
-                Updated 28 April 2021
+                Updated 30 June 2021
             </p>
         </div>
     </footer>
     <!-- <script src="./assets/js/script.js"></script> -->
 </body>
+
 </html>
